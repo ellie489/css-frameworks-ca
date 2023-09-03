@@ -15,8 +15,8 @@
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top">
+      <div class="container-fluid lead">
         <a class="navbar-brand" href="/index.html">Brand Name</a>
         <button
           class="navbar-toggler"
@@ -58,7 +58,7 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-primary" type="submit">
               Search
             </button>
           </form></div>
@@ -66,70 +66,88 @@
       </div>
     </nav>
     
-    <main>
-    <div class="container pt-2 d-flex justify-content-center flex-column">
+    <main class="d-flex">
+    <div class="container pt-2 d-flex flex-column">
             <div class="row gap-4 mt-4 pt-4">
-                <div class="col-12"><h1>Feed</h1>
-                </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                        <div class="col-12 col-md-5 col-lg-3">
-                            <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
+                <div class="col-12 col-md-10 col-lg-9 my-4">
+                  <form class="bg-warning bg-gradient px-4 py-4 rounded text-light lead">
+                        <h2 class="mb-4">Create a post</h2>
+                          <label for="validationTitle" class="form-label">Title</label>
+                          <input type="text" class="form-control" id="validationTitle" required>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Content:</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                        <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                            <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                            <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                            <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3">
-                            <img src="/images/example.jpg" class="img-thumbnail" alt="..." />
-                    </div>
+                        <div class="mb-3">
+                          <label for="formFile" class="form-label">Upload a photo:</label>
+                          <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="d-grid col-4">
+                          <button type="submit" class="btn btn-dark py-2">Post</button>
+                      </div>
+                    </form>
+              </div>
+              <div class="col-12"><h1>Feed</h1>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
+              <div class="card py-2 col-12 col-md-5 col-lg-3">
+                <a href="#" class="text-decoration-none link-dark">
+                <img src="/images/example-2.jpg" class="card-img" alt="example post">
+                <div class="card-body">
+                  <p class="card-text h5">Caption of this post</p>
+                </div></a>
+              </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-10 col-lg-9 my-4">
-                    <form>
-                          <h2>Make a new post</h2>
-                            <label for="validationTitle" class="form-label">Title</label>
-                            <input type="text" class="form-control" id="validationTitle" required>
-                          <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Content:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
-                          </div>
-                          <div class="mb-3">
-                            <label for="formFile" class="form-label">Upload a photo:</label>
-                            <input class="form-control" type="file" id="formFile">
-                          </div>
-                        <div class="col-md-8">
-                            <button type="submit" class="btn btn-lg btn-primary">Post</button>
-                        </div>
-                      </form>
-                </div>
+              
             </div>
         </div>
       </div>
