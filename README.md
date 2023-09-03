@@ -8,3 +8,4 @@ Included in my project are the 3 following HTML pages:
 I have installed Node.Js, Bootstrap, SASS and Live server into my project, configured NPM Scripts in package.json,
 and finally implemented my design using Bootstrap and SASS overrides. 
 
+Open your terminal in VS Code --> Npm run watch 
