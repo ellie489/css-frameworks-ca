@@ -10,7 +10,3 @@ and finally implemented my design using Bootstrap and SASS overrides.
 
 ## Getting started
 Clone repository form Github and open project in your code editor. To run the script, open your terminal --> Npm run watch 
-
-### Deployed site on Netlify
-https://imaginative-beignet-8fe793.netlify.app
-
